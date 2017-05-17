@@ -11,7 +11,7 @@ Python2.7 (3.x compatible with minor changes)
 Dependencies:
 BitVector,
 random,
-Crypto,
+pycrypto,
 socket,
 hashlib
 
