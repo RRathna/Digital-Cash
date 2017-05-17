@@ -1,6 +1,9 @@
+#customer
+#by Rathna Ramesh
+
+
 from BitVector import *
 import sys
-#from Crypto import Random
 import random
 import Crypto
 from Crypto.PublicKey import RSA
