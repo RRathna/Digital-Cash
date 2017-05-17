@@ -1,7 +1,8 @@
 # Merchant
+#cotributors: Rathna Ramesh, Sphootri Metri, Abhilash Garimela
+
 from BitVector import *
 import sys
-#from Crypto import Random
 import random
 import Crypto
 from Crypto.PublicKey import RSA
