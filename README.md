@@ -1,7 +1,7 @@
 # Digital-Cash
 
 Digital Cash Implementation
-Authors - Rathna Ramesh, Sphoorti Metri, Abhilash Garimela
+Authors - Rathna Ramesh
 
 Submitted for class project, Network security, SJSU
 Instructed by Dr. Gokay Saldamli
