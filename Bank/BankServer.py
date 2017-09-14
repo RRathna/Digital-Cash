@@ -13,7 +13,7 @@ IP = '127.0.0.1'
 PORT = 5005
 BUFFER_SIZE = 1024*64 # Normally 1024, but we want fast response
 #MO_request = "abc"
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)#imlementing in UDP for demo, upgrading to TCP is prefered
 s.bind(('', PORT))
 MO =""
 t = 0
@@ -33,7 +33,7 @@ with open('rsa.pub', 'r') as pub_file:
 with open('rsa.pvt', 'r') as pvt_file:
     pvt_key = RSA.importKey(pvt_file.read())
     
-def verify_secrets(I):
+def verify_secrets(I):#To make sure that all the Identity strings are the same - to avoid fraud
     Verify = True
     prev = I[0]
     for i in range(1,len(I)):
